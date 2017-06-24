@@ -9,5 +9,5 @@ global._asyncHook = {
 try {
   require('../');
 } catch (e) {
-  assert.equal(e.message, 'Conflicting version of async-hook found');
+  assert.equal(e.message, 'Conflicting version of async-hook-jl found');
 }

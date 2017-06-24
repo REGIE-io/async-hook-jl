@@ -12,7 +12,7 @@ if (global._asyncHook) {
   }
   // The version don't match, this is really bad. Lets just throw
   else {
-    throw new Error('Conflicting version of async-hook found');
+    throw new Error('Conflicting version of async-hook-jl found');
   }
 }
 

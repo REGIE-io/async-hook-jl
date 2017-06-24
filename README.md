@@ -1,4 +1,6 @@
-#async-hook
+[![Build Status](https://travis-ci.org/Jeff-Lewis/async-hook-jl.svg?branch=master)](https://travis-ci.org/Jeff-Lewis/async-hook-jl)
+
+#async-hook-jl
 
 > Inspect the life of handle objects in node
 
@@ -16,7 +18,7 @@ please see the semi-official AsyncWrap documentation:
 https://github.com/nodejs/diagnostics/blob/master/tracing/AsyncWrap/README.md
 
 ```javascript
-const asyncHook = require('async-hook');
+const asyncHook = require('async-hook-jl');
 ```
 
 #### Hooks
@@ -58,4 +60,4 @@ You can enable and disable all hooks by using `asyncHook.enable()` and
 `asyncHook.disable()`. By default it is disabled.
 
 Be careful about disabling the hooks, this will most likely conflict with other
-modules that uses `async-hook`.
+modules that uses `async-hook-jl`.
