@@ -1,7 +1,7 @@
 {
   "name": "async-hook-jl",
   "description": "Inspect the life of handle objects in node",
-  "version": "1.7.2",
+  "version": "1.7.5",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "endpoint": "0.4.x"
   },
   "engines": {
-    "node": "^4.7 || ~6.9 || ~7.3"
+    "node": "^4.7 || >=6.9 || >=7.3"
   }
 }
