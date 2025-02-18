@@ -1,5 +1,5 @@
 {
-  "name": "async-hook-jl",
+  "name": "@regie-engineering/async-hook-jl",
   "description": "Inspect the life of handle objects in node",
   "version": "1.7.7",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
