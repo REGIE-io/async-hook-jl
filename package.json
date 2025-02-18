@@ -1,7 +1,7 @@
 {
   "name": "async-hook-jl",
   "description": "Inspect the life of handle objects in node",
-  "version": "1.7.6",
+  "version": "1.7.7",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "devDependencies": {
     "async": "1.5.x",
-    "cli-color": "1.1.x",
-    "eslint": "^3.4.0",
+    "cli-color": "^2.0.4",
+    "eslint": "^8.0.0",
     "endpoint": "0.4.x"
   },
   "engines": {
