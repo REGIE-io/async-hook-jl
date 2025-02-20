@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/Jeff-Lewis/async-hook-jl.svg?branch=master)](https://travis-ci.org/Jeff-Lewis/async-hook-jl)
+> [!NOTE]  
+> This is a fork of [async-hook-jl](https://github.com/Jeff-Lewis/async-hook-jl) with upgraded dependencies to prevent security issues.
 
-#async-hook-jl
+# async-hook-jl [![NPM version](https://img.shields.io/npm/v/%40regie-engineering/async-hook-jl.svg?style=flat)](https://www.npmjs.com/package/%40regie-engineering/async-hook-jl) [![NPM monthly downloads](https://img.shields.io/npm/dm/%40regie-engineering/async-hook-jl.svg?style=flat)](https://npmjs.org/package/%40regie-engineering/async-hook-jl) [![NPM total downloads](https://img.shields.io/npm/dt/%40regie-engineering/async-hook-jl.svg?style=flat)](https://npmjs.org/package/%40regie-engineering/async-hook-jl)
 
 > Inspect the life of handle objects in node
 
@@ -50,7 +51,8 @@ optional.
 #### Providers
 
 The providers map is exposed as:
-```
+
+```javascript
 asyncHook.providers[provider];
 ```
 
